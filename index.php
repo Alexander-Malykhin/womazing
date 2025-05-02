@@ -11,14 +11,15 @@
     <title>womazing</title>
 </head>
 <body>
-    <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/header.php" ?>
-    <main class="main">
-        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/banner.php" ?>
-        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/collection.php" ?>
-        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/importante.php" ?>
-        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/team.php" ?>
-    </main>
-    <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/footer.php" ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/header.php" ?>
+<main class="main">
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/banner.php" ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/collection.php" ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/importante.php" ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/team.php" ?>
+</main>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . "/components/footer.php" ?>
 </body>
-<script src="./js/header.js"></script>
+<script src="js/sliderTeam.js"></script>
+<script src="js/sliderBanner.js"></script>
 </html>

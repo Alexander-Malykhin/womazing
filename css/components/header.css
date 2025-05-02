@@ -1,6 +1,7 @@
 :root {
     --main: #6E9C9F;
     --black: #000;
+    --hover: #509498;
 }
 
 .burger {
@@ -54,8 +55,8 @@
 }
 
 .phone__image {
-    max-width: 24px;
-    height: auto;
+    max-width: 14px;
+    height: 14px;
 }
 
 .phone__text {

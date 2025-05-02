@@ -30,10 +30,16 @@ $getBackground = !($_SERVER['REQUEST_URI'] !== '/');
             <span class="header__row"></span>
 
             <div class="header__buttons">
-                <a class="phone" href="tel:+79624050495">
-                    <img src="<?php echo $phoneImage ?>" alt="phone" class="phone__image">
-                    <span class="phone__text">+7 (495) 823-54-12</span>
-                </a>
+                <div class="phone">
+                    <button class="phone__button">
+                        <img src="<?php echo $phoneImage ?>" alt="phone" class="phone__image">
+                    </button>
+
+                    <a href="tel:+79624050495">
+                        <span class="phone__text">+7 (495) 823-54-12</span>
+                    </a>
+
+                </div>
 
                 <button class="basket">
                     <img src="<?php echo $basketImage ?>" alt="bag">

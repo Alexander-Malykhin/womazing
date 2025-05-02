@@ -9,6 +9,28 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.card__container-image::before {
+    content: url("../../images/card/arrow.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 99;
+    transition: background 0.3s ease-in-out;
+}
+
+.card__container-image:hover::before {
+    background: rgba(110, 156, 159, 0.3);
 }
 
 .card__image {

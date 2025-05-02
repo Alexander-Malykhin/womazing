@@ -18,11 +18,15 @@
                             </button>
                         </div>
 
-                        <img src="../images/slider/slider-1.png" alt="slider">
+                        <div class="team__sliders">
+                            <img src="../images/slider/slider-1.png" alt="slider" class="team__sliders-item slider__active">
+                            <img src="../images/slider/slider-1.png" alt="slider" class="team__sliders-item">
+                            <img src="../images/slider/slider-1.png" alt="slider" class="team__sliders-item">
+                        </div>
 
                         <div class="slider__dots">
-                            <span class="slider__dots-item"></span>
                             <span class="slider__dots-item slider__active"></span>
+                            <span class="slider__dots-item"></span>
                             <span class="slider__dots-item"></span>
                         </div>
                     </div>

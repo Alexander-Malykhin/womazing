@@ -16,20 +16,7 @@ $visaAndMasterCardImage = getPathImage('footer', 'visa-mastercard.svg');
 
             <span class="footer__row"></span>
 
-            <nav class="footer__navigation">
-                <a href="#" class="navigation__item item-active">
-                    <span class="navigation__span">Главная</span>
-                </a>
-                <a href="#" class="navigation__item">
-                    <span class="navigation__span">Магазин</span>
-                </a>
-                <a href="#" class="navigation__item">
-                    <span class="navigation__span">О бренде</span>
-                </a>
-                <a href="#" class="navigation__item">
-                    <span class="navigation__span">Контакты</span>
-                </a>
-            </nav>
+            <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/components/footer__navigation.php'?>
 
             <span class="footer__row"></span>
 
