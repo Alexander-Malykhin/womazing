@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.card__container-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.card__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card__information-name {
+    font-size: 1.2rem;
+    color: var(--black);
+    font-weight: 500;
+}
+
+.card__price {
+    color: var(--price);
+    font-size: 0.9rem;
+}

@@ -1,0 +1,93 @@
+.contacts {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8.1rem;
+}
+
+.contacts__back {
+    background-color: var(--gray);
+    height: 29rem;
+}
+
+.contacts__information {
+    display: flex;
+    gap: 5.3rem;
+}
+
+.contacts__information-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contacts__information-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.contacts__text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.contacts__order {
+    display: flex;
+    flex-direction: column;
+    gap: 3.8rem;
+}
+
+.contacts__order-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.contacts__order-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 27.8rem;
+    gap: 2.2rem;
+}
+
+.contacts__order-input {
+    height: 2.5rem;
+    border-bottom: 1px solid var(--black);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.contacts__order-textarea {
+    height: 6.8rem;
+    border-bottom: 1px solid var(--black);
+    color: black;
+    resize: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.contacts__order-textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contacts__order-button {
+    background-color: var(--main);
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 1.3rem 3.1rem;
+    max-width: 12.1rem;
+}
+
+.contacts__message {
+    background-color: var(--brown);
+    color: var(--black);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1.8rem 0;
+    max-width: 27.8rem;
+    text-align: center;
+}

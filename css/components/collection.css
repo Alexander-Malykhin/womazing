@@ -1,0 +1,42 @@
+:root {
+    --price: #998E78;
+}
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    gap: 5.75rem;
+}
+
+.collection__content {
+    align-items: center;
+}
+
+.collection__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    justify-content: space-between;
+}
+
+.collection__button {
+    text-align: center;
+    border: 1px solid var(--main);
+    color: var(--main);
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 1.2rem 3.1rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .collection {
+        gap: 4rem;
+    }
+
+    .collection__list {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+}
+

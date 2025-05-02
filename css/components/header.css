@@ -1,0 +1,141 @@
+:root {
+    --main: #6E9C9F;
+    --black: #000;
+}
+
+.burger {
+    display: none;
+}
+
+.header {
+    margin-top: 3.1rem;
+    position: relative;
+}
+
+.header__background {
+    position: absolute;
+    top: -3.1rem;
+    right: 0;
+    width: 58rem;
+    height: 52rem;
+    background-color: var(--brown);
+    z-index: -1;
+}
+
+.header__buttons {
+    width: max-content;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.logo {
+    grid-area: logo;
+    max-width: max-content;
+    height: auto;
+}
+
+.header__content {
+    display: grid;
+    grid-template-areas: "logo . navigation . buttons";
+    grid-template-columns: max-content
+    minmax(1rem, 9.1rem)
+    minmax(12.5rem, 25rem)
+    minmax(1rem, 10.6rem)
+    auto;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.phone__image {
+    max-width: 24px;
+    height: auto;
+}
+
+.phone__text {
+    color: var(--black);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.basket {
+    width: 1.5rem;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .header :after {
+        width: 32.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .header__content {
+        grid-template-columns: max-content
+        minmax(0.1rem, 9.1rem)
+        minmax(12.5rem, 25rem)
+        minmax(0.1rem, 10.6rem)
+        auto;
+    }
+
+    .header__background {
+        width: 35.1rem;
+        height: 41.2rem;
+    }
+
+    .phone__text {
+        color: var(--black);
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .header {
+        margin-top: 1rem;
+    }
+
+
+    .header__background {
+        width: 45%;
+        height: 55rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .burger {
+        grid-area: burger;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        cursor: pointer;
+    }
+
+    .burger__line {
+        width: 1.2rem;
+        height: 0.15rem;
+        background-color: var(--black);
+    }
+}
+
