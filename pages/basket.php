@@ -10,11 +10,7 @@
                 Корзина
             </h1>
 
-            <div class="crumbs">
-                <span class="crumbs__item">Главная</span>
-                <span class="crumbs__row">—</span>
-                <span class="crumbs__item">Корзина</span>
-            </div>
+            <?php require $_SERVER['DOCUMENT_ROOT'] . '/components/crumbs.php'?>
         </section>
 
         <section class="basket__page">
@@ -86,9 +82,9 @@
                            <span class="basket__result-span">$129</span>
                        </div>
 
-                       <button class="basket__submit">
+                       <a href="/pages/order.php" class="basket__submit">
                            Оформить заказ
-                       </button>
+                       </a>
                    </div>
                </div>
             </div>

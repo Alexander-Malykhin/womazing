@@ -4,6 +4,9 @@
 @import "./pages/brand.css";
 @import "./pages/contacts.css";
 @import "./pages/basket.css";
+@import "./pages/order.css";
+@import "./pages/success.css";
+@import "./pages/card.css";
 /*COMPONENTS*/
 @import "./components/header.css";
 @import "./components/banner.css";
@@ -91,6 +94,7 @@
     border-bottom: 1px solid var(--black);
     font-size: 1.1rem;
     font-weight: 500;
+    width: 100%;
 }
 
 

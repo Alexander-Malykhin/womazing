@@ -16,11 +16,7 @@ $lastBrandImage = getPathImage('brand', 'brand-2.png');
                 Контакты
             </h1>
 
-            <div class="crumbs">
-                <span class="crumbs__item">Главная</span>
-                <span class="crumbs__row">—</span>
-                <span class="crumbs__item">Контакты</span>
-            </div>
+            <?php require $_SERVER['DOCUMENT_ROOT'] . '/components/crumbs.php'?>
         </section>
 
         <section class="contacts">

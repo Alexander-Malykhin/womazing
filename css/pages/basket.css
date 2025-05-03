@@ -139,12 +139,14 @@
 }
 
 .basket__submit {
-    text-align: center;
     color: var(--white);
     background-color: var(--main);
     font-size: 1.1rem;
     font-weight: 500;
     transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .basket__submit:hover {

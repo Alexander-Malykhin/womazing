@@ -14,7 +14,7 @@
                         <span class="banner__button-image">
                             <img src="../images/arrow-bottom.svg" alt="arrow">
                         </span>
-                           <span class="banner__button-span">Открыть магазин</span>
+                           <a href="/pages/shop.php" class="banner__button-span">Открыть магазин</a>
                        </button>
                    </div>
 
@@ -29,7 +29,7 @@
                         <span class="banner__button-image">
                             <img src="../images/arrow-bottom.svg" alt="arrow">
                         </span>
-                           <span class="banner__button-span">Открыть магазин</span>
+                           <a href="/pages/shop.php" class="banner__button-span">Открыть магазин</a>
                        </button>
                    </div>
 
@@ -44,7 +44,7 @@
                         <span class="banner__button-image">
                             <img src="../images/arrow-bottom.svg" alt="arrow">
                         </span>
-                           <span class="banner__button-span">Открыть магазин</span>
+                           <a href="/pages/shop.php" class="banner__button-span">Открыть магазин</a>
                        </button>
                    </div>
                </div>

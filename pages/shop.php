@@ -10,11 +10,7 @@
                     Магазин
                 </h1>
 
-                <div class="crumbs">
-                    <span class="crumbs__item">Главная</span>
-                    <span class="crumbs__row">—</span>
-                    <span class="crumbs__item">Магазин</span>
-                </div>
+                <?php require $_SERVER['DOCUMENT_ROOT'] . '/components/crumbs.php'?>
             </section>
 
             <section class="shop">
