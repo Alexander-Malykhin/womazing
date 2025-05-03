@@ -12,9 +12,9 @@
                     <?php require $_SERVER['DOCUMENT_ROOT'] . '/components/card.php'?>
                 </div>
 
-                <button class="collection__button">
+                <a href="/pages/shop.php" class="collection__button">
                     Открыть магазин
-                </button>
+                </a>
             </div>
         </div>
     </div>

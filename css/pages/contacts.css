@@ -52,13 +52,6 @@
     gap: 2.2rem;
 }
 
-.contacts__order-input {
-    height: 2.5rem;
-    border-bottom: 1px solid var(--black);
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
 .contacts__order-textarea {
     height: 6.8rem;
     border-bottom: 1px solid var(--black);

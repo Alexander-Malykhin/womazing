@@ -2,9 +2,7 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/php/getPathImage.php';
 
 $logoImage = getPathImage('header', 'logo.png');
-$phoneImage = getPathImage('header', 'phone.png');
 $basketImage = getPathImage('header', 'bag.svg');
-
 $getBackground = !($_SERVER['REQUEST_URI'] !== '/');
 ?>
 
@@ -20,7 +18,9 @@ $getBackground = !($_SERVER['REQUEST_URI'] !== '/');
             <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/components/mobile__menu.php' ?>
 
             <div class="logo">
-                <img src="<?php echo $logoImage ?>" alt="logo">
+                <a href="/">
+                    <img src="<?php echo $logoImage ?>" alt="logo">
+                </a>
             </div>
 
             <span class="header__row"></span>
@@ -31,21 +31,50 @@ $getBackground = !($_SERVER['REQUEST_URI'] !== '/');
 
             <div class="header__buttons">
                 <div class="phone">
-                    <button class="phone__button">
-                        <img src="<?php echo $phoneImage ?>" alt="phone" class="phone__image">
-                    </button>
+                    <button class="phone__button"></button>
 
                     <a href="tel:+79624050495">
                         <span class="phone__text">+7 (495) 823-54-12</span>
                     </a>
-
                 </div>
 
-                <button class="basket">
+                <a class="basket" href="/pages/basket.php">
                     <img src="<?php echo $basketImage ?>" alt="bag">
-                </button>
+                </a>
             </div>
         </div>
     </div>
     <div class=<?=$getBackground? "header__background" : "" ?>></div>
+
+    <div class="header__order">
+       <div class="header__order-container">
+           <button class="header__order-close">
+               <span class="header__order-line"></span>
+               <span class="header__order-line"></span>
+           </button>
+
+           <h2 class="header__order-title">Заказать обратный звонок</h2>
+
+           <form action="" class="header__order-form">
+               <input
+                       type="text"
+                       class="order__input"
+                       placeholder="Имя"
+               >
+               <input
+                       type="email"
+                       class="order__input"
+                       placeholder="E-mail"
+               >
+               <input
+                       type="text"
+                       class="order__input"
+                       placeholder="Телефон"
+               >
+               <button class="header__order-button">
+                   Заказать звонок
+               </button>
+           </form>
+       </div>
+    </div>
 </header>

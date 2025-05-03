@@ -11,7 +11,9 @@ $visaAndMasterCardImage = getPathImage('footer', 'visa-mastercard.svg');
     <div class="container">
         <div class="footer__content">
             <div class="footer__logo">
-                <img src="<?= $logoImage ?>" alt="logo">
+                <a href="/">
+                    <img src="<?php echo $logoImage ?>" alt="logo">
+                </a>
             </div>
 
             <span class="footer__row"></span>

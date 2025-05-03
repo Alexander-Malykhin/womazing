@@ -3,6 +3,7 @@
 @import "./pages/shop.css";
 @import "./pages/brand.css";
 @import "./pages/contacts.css";
+@import "./pages/basket.css";
 /*COMPONENTS*/
 @import "./components/header.css";
 @import "./components/banner.css";
@@ -84,6 +85,14 @@
     color: var(--gray-text);
     cursor: pointer;
 }
+
+.order__input {
+    height: 2.5rem;
+    border-bottom: 1px solid var(--black);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 
 @media only screen and (max-width: 1140px) {
     * {
