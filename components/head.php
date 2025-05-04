@@ -12,5 +12,6 @@ $path = $_SERVER['HTTPS'] ? 'https://' : "http://";
           rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css">
     <script src="<?= $path . $_SERVER["SERVER_NAME"] . '/js/orderHeaderForm.js' ?>" defer></script>
+    <script src="<?= $path . $_SERVER["SERVER_NAME"] . '/js/burgerButton.js' ?>" defer></script>
     <title><?= $title ?></title>
 </head>

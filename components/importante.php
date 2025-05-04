@@ -1,6 +1,6 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/php/getPathImage.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/php/models/ImportantItem.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/php/staticModels/ImportantItem.php';
 
 $imageImportante = getPathImage('importante', 'calidad.svg');
 $imageGear = getPathImage('importante', 'gear.svg');

@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/php/models/NavigationItem.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/php/staticModels/NavigationItem.php';
 
 $arrayNavigation = [
     new NavigationItem('Главная', '/', true),

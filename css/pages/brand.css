@@ -59,3 +59,33 @@
     grid-area: brand__last_text;
 }
 
+
+@media only screen and (max-width: 992px) {
+    .brand {
+        gap: 5rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .brand {
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .brand__text {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .brand {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: "brand__first_image" "brand__first_text"
+                         "brand__last_text" "brand__last_image";
+    }
+
+    .brand__text {
+        font-size: 1rem;
+    }
+}

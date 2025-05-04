@@ -69,3 +69,28 @@
     background-color: var(--black);
     color: var(--white);
 }
+
+
+@media only screen and (max-width: 992px) {
+    .shop__filter-item {
+      padding: 1.1rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .shop {
+        margin-top: 5rem;
+    }
+
+    .shop__filter-item {
+        flex: 1 1 auto;
+    }
+
+    .shop__filter {
+        flex-wrap: wrap;
+    }
+
+    .shop__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

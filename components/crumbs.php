@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/php/models/Crumb.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/php/staticModels/Crumb.php';
 
 
 $arrayPages = [
